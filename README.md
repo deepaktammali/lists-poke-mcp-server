@@ -1,6 +1,6 @@
 # Poke Lists MCP Server
 
-A Model Context Protocol (MCP) server that provides comprehensive list management functionality for Poke integrations. Perfect for shopping lists, todo lists, project lists, and any other list-based organization.
+A simple list management server that works with Poke. Create shopping lists, todo lists, or any other kind of list you need.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/InteractionCo/mcp-server-template)
 
@@ -108,33 +108,14 @@ We're working hard on improving the integration use of Poke :)
 
 ## Production Deployment Checklist
 
-### Database Migration
-- [ ] Replace in-memory storage with persistent database (PostgreSQL/MongoDB)
-- [ ] Add database connection pooling
-- [ ] Implement proper data migrations
-- [ ] Add database backup and recovery procedures
-
-### Security & Authentication
-- [ ] Implement proper user authentication beyond header-based
-- [ ] Add JWT token validation
-- [ ] Set up rate limiting per user
+### Essential
+- [ ] Replace in-memory storage with persistent database
+- [ ] Add proper user authentication
+- [ ] Set up HTTPS/TLS encryption
 - [ ] Add input validation and sanitization
-- [ ] Implement HTTPS/TLS encryption
-- [ ] Add CORS configuration for web clients
 
-### Data Management
-- [ ] Add timestamp fields if needed (created_at, updated_at)
-- [ ] Implement soft delete for lists and items
-- [ ] Add data export functionality
-- [ ] Set up automated data backups
-- [ ] Add data retention policies
-
-### Performance & Scalability
-- [ ] Add Redis caching layer
-- [ ] Implement database indexing
-- [ ] Add connection pooling
-- [ ] Set up load balancing
-- [ ] Add database read replicas
+### Nice to Have
+- [ ] Add automated backups
 - [ ] Implement pagination for large lists
 
 ## Customization
