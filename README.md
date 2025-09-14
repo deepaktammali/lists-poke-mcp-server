@@ -2,7 +2,7 @@
 
 A simple list management server that works with Poke. Create shopping lists, todo lists, or any other kind of list you need.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/InteractionCo/mcp-server-template)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/deepaktammali/lists-poke-mcp-server)
 
 ## Features
 
